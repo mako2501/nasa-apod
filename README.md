@@ -2,7 +2,7 @@
 
 Aplikacja APOD (Astronomy Picture of the Day) to projekt Angularowy, który wykorzystuje API NASA do prezentacji codziennego obrazu kosmosu wraz z krótkim opisem. Użytkownik może przeglądać obrazy z tygodnia, a także wybrać datę, aby zobaczyć zdjęcie z konkretnego dnia. Projekt korzysta z Angular Material do tworzenia nowoczesnego i responsywnego interfejsu użytkownika.
 
-## projekt zaliczeniowy
+## Projekt zaliczeniowy
 
 Rafał M. 14798
 
@@ -12,6 +12,11 @@ Rafał M. 14798
 - przeglądanie Obrazów Tygodnia: użytkownicy mogą przeglądać obrazy z ostatnich siedmiu dni
 - wybór Daty: możliwość wyboru dowolnej daty, aby zobaczyć obraz z tego dnia
 - aby pobrac dane z API należy umieścić swój klucz w zmiennej environments/environment.ts environment.nasaApiKey
+
+## Przykłady użycia po zbudowaniu i uruchomieniu projektu
+
+Logowanie w celu uzyskania jwt
+![Opis alternatywny](img/1.JPG)
 
 ## Nasa
 
