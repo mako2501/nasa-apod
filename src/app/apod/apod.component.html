@@ -1,0 +1,17 @@
+
+<div class="container">
+<h1>Kosmiczne zdjęcie dnia</h1>
+
+    <div *ngIf="apodDay"> <!-- czy apodDay istnieje -->
+        <h3>"{{ apodDay.title }}" ({{ apodDay.date }}) 
+            <a *ngIf="apodDay.hdurl" mat-button href="{{apodDay.hdurl}}" target="_blank">Zdjęcie HD</a>
+        </h3>
+        <img [src]="apodDay.url" alt="{{ apodDay.title }}">
+        <p class="explanation">{{ apodDay.explanation }}</p>
+
+        <p *ngIf="apodDay.copyright" class="copyright">&copy; {{ apodDay.copyright }}</p>
+
+    </div>
+
+</div>
+

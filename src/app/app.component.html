@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button aria-label="Home icon-button with menu icon" (click)="navigateToApod()">
+        <mat-icon>home</mat-icon>
+    </button>
+
+    <span>NASA Apod API</span>
+
+    <span class="example-spacer"></span>
+
+    <button mat-button aria-label="Navigate to APOD Day" (click)="navigateToApod()" style="margin-left: 10px;">
+        Dzisiaj
+    </button>
+    <button mat-button [routerLink]="'/apod-week'" aria-label="Navigate to APOD Week" style="margin-left: 10px;">
+        Ostatni tydzień
+    </button>
+
+    <mat-form-field style="margin-top: 20px; margin-left: 10px;">
+        <mat-label>Wybierz dzień</mat-label>
+        <input matInput [matDatepicker]="picker" (dateChange)="onDateChange($event)" [max]="maxDate" >
+        <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+        <mat-datepicker-toggle matIconSuffix [for]="picker" ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+</mat-toolbar>
+
+
+
+
+<!-- <app-apod></app-apod>
+<app-apod-week></app-apod-week> -->
+
+
+<router-outlet />
