@@ -15,7 +15,7 @@ Rafał M. 14798
 
 ## Przykłady użycia po zbudowaniu i uruchomieniu projektu
 
-Logowanie w celu uzyskania jwt
+Strona startowa - apod - Kosmiczne zdjęcie dnia
 ![Opis alternatywny](img/1.JPG)
 
 ## Nasa
