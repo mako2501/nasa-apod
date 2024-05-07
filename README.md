@@ -18,6 +18,12 @@ Rafał M. 14798
 Strona startowa - apod - Kosmiczne zdjęcie dnia
 ![Opis alternatywny](img/1.JPG)
 
+Strona obrazów z ostatniego tygodnia
+![Opis alternatywny](img/2.JPG)
+
+Wybór dnia z kalendarza
+![Opis alternatywny](img/3.JPG)
+
 ## Nasa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
